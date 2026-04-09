@@ -1,7 +1,0 @@
-lib/screens/proctoring_exam_screen.dart:460:40: Error: Required named parameter 'key' must be provided.
-                    child: CameraWidget(
-                                       ^
-lib/widgets/camera_widget.dart:12:9: Context: Found this candidate, but the arguments don't match.
-  const CameraWidget({
-        ^^^^^^^^^^^^
-Failed to compile application.
