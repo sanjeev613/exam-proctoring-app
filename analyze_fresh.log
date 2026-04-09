@@ -1,0 +1,36 @@
+﻿Analyzing exam_proctoring_app...                                
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\environment_check_screen.dart:246:50 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\home_screen.dart:515:36 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\home_screen.dart:516:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\home_screen.dart:517:18 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\home_screen.dart:522:9 - use_build_context_synchronously
+   info - 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead - lib\screens\proctoring_exam_screen.dart:2:1 - deprecated_member_use
+  error - The method 'toLowerCase' can't be unconditionally invoked because the receiver can be 'null' - lib\screens\proctoring_exam_screen.dart:320:31 - unchecked_use_of_nullable_value
+warning - The declaration '_showEvidencePreview' isn't referenced - lib\screens\proctoring_exam_screen.dart:489:16 - unused_element
+   info - Don't use 'BuildContext's across async gaps - lib\screens\proctoring_exam_screen.dart:535:19 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\proctoring_exam_screen.dart:659:25 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\proctoring_exam_screen.dart:660:25 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\proctoring_exam_screen.dart:899:77 - deprecated_member_use
+warning - The declaration '_processDetections' isn't referenced - lib\services\ai_monitoring_service.dart:139:8 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\camera_widget.dart:145:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\camera_widget.dart:149:28 - deprecated_member_use
+   info - Unnecessary braces in a string interpolation - lib\widgets\camera_widget.dart:237:45 - unnecessary_brace_in_string_interps
+
+flutter : 16 issues found. 
+(ran in 14.5s)
+At line:1 char:1
++ flutter analyze 
+--no-fatal-infos 2>&1 | 
+Out-File -Encoding utf8 
+analy ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (16   
+  issues found. (ran in    
+ 14.5s):String) [], Rem    
+oteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 

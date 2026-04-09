@@ -1,0 +1,9 @@
+✓ Using mock database for development
+Using mock database for development
+Mock user initialized: STU001 / test@1234
+Mock exams initialized: 3
+Mock default session seeded: 9ca3c5c2-25f6-414a-83d3-5176f79fe8a1
+[32minfo[39m: Exam Proctoring Backend started | env=development | port=5000 {"service":"exam-proctoring-backend","timestamp":"2026-03-13T08:02:25.566Z"}
+[32minfo[39m: API: http://localhost:5000/api {"service":"exam-proctoring-backend","timestamp":"2026-03-13T08:02:25.568Z"}
+[32minfo[39m: Health: http://localhost:5000/health {"service":"exam-proctoring-backend","timestamp":"2026-03-13T08:02:25.568Z"}
+[32minfo[39m: Frontend: http://localhost:5000 {"service":"exam-proctoring-backend","timestamp":"2026-03-13T08:02:25.569Z"}
